@@ -1,0 +1,36 @@
+.activity-table {
+  background: #fff;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  grid-column: span 2;
+}
+
+.activity-table h2 {
+  margin: 0 0 18px;
+}
+
+.activity-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.activity-table th,
+.activity-table td {
+  text-align: left;
+  padding: 14px 12px;
+}
+
+.activity-table th {
+  color: #64748b;
+  font-weight: 600;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.activity-table tr:not(:last-child) td {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.activity-table td {
+  color: #334155;
+}

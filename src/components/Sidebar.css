@@ -1,0 +1,30 @@
+.sidebar {
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 100vh;
+}
+
+.brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar a {
+  color: #cbd5e1;
+  transition: color 0.2s ease;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  color: #f8fafc;
+}

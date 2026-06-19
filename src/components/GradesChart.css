@@ -1,0 +1,32 @@
+.grades-chart {
+  background: #fff;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.grades-chart h2 {
+  margin: 0 0 16px;
+}
+
+.grades-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.grade-card {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.grade-card span {
+  color: #64748b;
+}
+
+.grade-card strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.4rem;
+}
